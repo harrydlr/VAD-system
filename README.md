@@ -1,5 +1,5 @@
 # VAD-system
-This is a 2 days experience trying to build a voice detection system (VAD).
+This is a 2 days experience trying to build a voice activity detection system (VAD).
 
 It is inspired by this work done in tensorflow and using the author's own model. The implementation of this repository is made in pytorch and uses the huggingface model Voice Activity Detection with a (small) CRDNN model trained on Libriparty (https://huggingface.co/speechbrain/vad-crdnn-libriparty) to create a tagged dataset to train the model with.
 
